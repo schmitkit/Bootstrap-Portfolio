@@ -1,0 +1,108 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    background-color: #3D3D3D;
+    background-image: url(../images/Tile.jpeg);
+    border-radius: 6px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+
+.navbar{
+    padding: 0px 0px 0px 0px;
+    margin: 10px 0 -15px 0;
+}
+.container-fluid, main, .portfolio {
+    background-color: whitesmoke;
+    border-radius: 6px;
+    align-content: center;
+    margin: 20px 0 20px 0;
+    padding: 20px 10px 20px 0px;
+}
+
+hr {
+    border: 0;
+    height: 5px;
+    background: whitesmoke;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.navbar-header {
+    display: block;
+    float: left;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 20px 0 20px;
+    padding: 0;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.navbar-nav a {
+    list-style-type: none;
+    margin: 0 20px 0 20px;
+    font-size: 20px;
+    color: black;
+
+}
+
+.active {
+    display: block;
+    background-color: cadetblue;
+    opacity: 0.7;
+    border-radius: 6px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+/* PHOTOS ONLY */
+
+#Yosemite {
+    width: 40%;
+    height: 65%;
+    margin: 10px;
+    float: left;
+    border-style: double;
+}
+
+#CecilianGatsby {
+    float: left;
+    width: 30%;
+    margin: 10px;
+    border-style: double;
+}
+
+.figure-img{
+    float: left;
+    width: 250px;
+    height: 250px;
+    border-style: double;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding: auto;
+}
+
+.figure-caption {
+    text-align: center;
+}
+
+
+
+
