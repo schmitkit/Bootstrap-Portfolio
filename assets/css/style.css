@@ -14,12 +14,20 @@ body{
     padding: 0px 0px 0px 0px;
     margin: 10px 0 -15px 0;
 }
-.container-fluid, main, .portfolio {
+.container-fluid, main, .portfolio, .container {
     background-color: whitesmoke;
     border-radius: 6px;
     align-content: center;
     margin: 20px 0 20px 0;
-    padding: 20px 10px 20px 0px;
+    padding: 15px 10px 15px 0px;
+}
+
+.resume {
+    background-color: whitesmoke;
+    border-radius: 6px;
+    align-content: center;
+    margin: 20px 0 20px 0;
+    padding: 10px;
 }
 
 hr {
@@ -50,7 +58,7 @@ hr {
 }
 
 .navbar-nav a {
-    list-style-type: none;
+    text-decoration: none;
     margin: 0 20px 0 20px;
     font-size: 20px;
     color: black;
@@ -71,38 +79,69 @@ hr {
 /* PHOTOS ONLY */
 
 #Yosemite {
-    width: 40%;
-    height: 65%;
-    margin: 10px;
+    width: 50%;
+    height: 50%;
+    margin: 5px 10px 5px 10px;
     float: left;
-    border-style: double;
+    border-style: solid;
+    border-width: 2px;
+    border-color: cadetblue;
 }
 
 #CecilianGatsby {
     float: left;
-    width: 30%;
-    margin: 10px;
-    border-style: double;
+    width: 35%;
+    margin: 5px 10px 5px 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: cadetblue;
 }
 
 .figure-img{
     float: left;
     width: 250px;
     height: 250px;
-    border-style: double;
+    border-style: solid;
+    border-width: 2px;
+    border-color: cadetblue;
 }
 
 .portfolio {
-    display: flex;
-    justify-content: space-around;
-    margin: auto;
-    padding: auto;
+    padding: 30px 0 10px 0;
 }
 
 .figure-caption {
     text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
 }
 
+.header {
+    color: cadetblue;
+    font-size: 27px;
+    margin: 0;
+}
 
+.bigicon {
+    font-size: 35px;
+    color: cadetblue;
+}
 
+.btn-primary:hover {
+    color: #fff;
+    background-color: cadetblue;
+    border-color: whitesmoke;
+}
+.btn-primary {
+    color: #fff;
+    background-color: cadetblue;
+    border-color: cadetblue;
+    float: left;
+    margin: 10px 0;
+}
+
+.form-group {
+    margin:0;
+}
 
